@@ -2,6 +2,7 @@ int func()
 {
 	return 2;
 }
+static int t = 1;
 int main()
 {
 	func();
@@ -9,7 +10,7 @@ int main()
 	func();
 	func();
 	func();		
-	if(0) {
+	if(!t) {
 		return 1;
 	}
 	else {
