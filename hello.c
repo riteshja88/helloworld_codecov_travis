@@ -5,7 +5,10 @@ int func()
 int main()
 {
 	func();
-	func();	
+	func();
+	func();
+	func();
+	func();		
 	if(0) {
 		return 1;
 	}
